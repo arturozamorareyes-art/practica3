@@ -1,6 +1,6 @@
 # Práctica 3 · Resultados de clasificación
 
-**Repositorio de GitHub:** pendiente de completar al publicar.
+**Repositorio de GitHub:** https://github.com/arturozamorareyes-art/practica3
 
 ## Pregunta experimental
 
