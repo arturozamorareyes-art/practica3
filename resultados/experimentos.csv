@@ -1,0 +1,109 @@
+datos,metodo,pliegue,modelo,variante,aciertos,total,ajuste_ms,prediccion_ms,parametros,avisos_convergencia
+Iris,Hold Out,1,Distancia mínima,Base,37,45,1.977,1.481,{},0
+Iris,Hold Out,1,1-NN,Base,42,45,1.625,1.858,{},0
+Iris,Hold Out,1,K-NN,Base,41,45,1.35,3.22,{},0
+Iris,Hold Out,1,K-NN,Ajustado,41,45,55.471,2.42,"{""modelo__k"": 5}",0
+Iris,Hold Out,1,Naïve Bayes,Base,41,45,4.43,1.207,{},0
+Iris,Hold Out,1,SVM,Base,42,45,3.202,0.752,{},0
+Iris,Hold Out,1,SVM,Ajustado,42,45,64.065,0.799,"{""modelo__C"": 1}",0
+Iris,Hold Out,1,MLP,Base,40,45,167.827,0.944,{},1
+Iris,Hold Out,1,MLP,Ajustado,41,45,985.887,0.905,"{""modelo__hidden_layer_sizes"": [100], ""modelo__solver"": ""lbfgs""}",6
+Iris,K-Fold,1,Distancia mínima,Base,27,30,1.259,0.915,{},0
+Iris,K-Fold,1,1-NN,Base,30,30,1.058,1.137,{},0
+Iris,K-Fold,1,K-NN,Base,30,30,1.052,1.54,{},0
+Iris,K-Fold,1,K-NN,Ajustado,29,30,46.351,1.767,"{""modelo__k"": 9}",0
+Iris,K-Fold,1,Naïve Bayes,Base,29,30,2.485,0.645,{},0
+Iris,K-Fold,1,SVM,Base,30,30,2.543,0.606,{},0
+Iris,K-Fold,1,SVM,Ajustado,30,30,49.716,0.617,"{""modelo__C"": 10}",0
+Iris,K-Fold,1,MLP,Base,30,30,167.801,0.887,{},1
+Iris,K-Fold,1,MLP,Ajustado,30,30,1208.459,0.975,"{""modelo__hidden_layer_sizes"": [100], ""modelo__solver"": ""adam""}",7
+Iris,K-Fold,2,Distancia mínima,Base,27,30,1.311,0.902,{},0
+Iris,K-Fold,2,1-NN,Base,28,30,1.068,1.114,{},0
+Iris,K-Fold,2,K-NN,Base,29,30,1.05,1.533,{},0
+Iris,K-Fold,2,K-NN,Ajustado,29,30,45.818,1.65,"{""modelo__k"": 5}",0
+Iris,K-Fold,2,Naïve Bayes,Base,29,30,2.347,0.589,{},0
+Iris,K-Fold,2,SVM,Base,29,30,2.424,0.574,{},0
+Iris,K-Fold,2,SVM,Ajustado,29,30,48.708,0.647,"{""modelo__C"": 1}",0
+Iris,K-Fold,2,MLP,Base,29,30,167.61,0.912,{},1
+Iris,K-Fold,2,MLP,Ajustado,29,30,1236.503,0.948,"{""modelo__hidden_layer_sizes"": [100], ""modelo__solver"": ""adam""}",7
+Iris,K-Fold,3,Distancia mínima,Base,25,30,1.34,0.907,{},0
+Iris,K-Fold,3,1-NN,Base,26,30,1.072,1.113,{},0
+Iris,K-Fold,3,K-NN,Base,28,30,1.043,1.53,{},0
+Iris,K-Fold,3,K-NN,Ajustado,28,30,46.104,1.625,"{""modelo__k"": 5}",0
+Iris,K-Fold,3,Naïve Bayes,Base,27,30,2.332,0.596,{},0
+Iris,K-Fold,3,SVM,Base,27,30,2.492,0.564,{},0
+Iris,K-Fold,3,SVM,Ajustado,27,30,48.89,0.607,"{""modelo__C"": 10}",0
+Iris,K-Fold,3,MLP,Base,27,30,168.228,0.886,{},1
+Iris,K-Fold,3,MLP,Ajustado,26,30,939.336,0.906,"{""modelo__hidden_layer_sizes"": [100], ""modelo__solver"": ""lbfgs""}",6
+Iris,K-Fold,4,Distancia mínima,Base,28,30,1.28,0.905,{},0
+Iris,K-Fold,4,1-NN,Base,30,30,1.063,1.125,{},0
+Iris,K-Fold,4,K-NN,Base,30,30,1.047,1.577,{},0
+Iris,K-Fold,4,K-NN,Ajustado,30,30,45.806,1.631,"{""modelo__k"": 9}",0
+Iris,K-Fold,4,Naïve Bayes,Base,30,30,2.34,0.593,{},0
+Iris,K-Fold,4,SVM,Base,30,30,2.454,0.573,{},0
+Iris,K-Fold,4,SVM,Ajustado,30,30,49.135,0.695,"{""modelo__C"": 1}",0
+Iris,K-Fold,4,MLP,Base,30,30,168.147,0.882,{},1
+Iris,K-Fold,4,MLP,Ajustado,30,30,1420.841,0.857,"{""modelo__hidden_layer_sizes"": [24], ""modelo__solver"": ""lbfgs""}",7
+Iris,K-Fold,5,Distancia mínima,Base,23,30,1.262,0.908,{},0
+Iris,K-Fold,5,1-NN,Base,26,30,1.058,1.134,{},0
+Iris,K-Fold,5,K-NN,Base,29,30,1.044,1.582,{},0
+Iris,K-Fold,5,K-NN,Ajustado,27,30,48.888,1.631,"{""modelo__k"": 3}",0
+Iris,K-Fold,5,Naïve Bayes,Base,27,30,2.332,0.588,{},0
+Iris,K-Fold,5,SVM,Base,28,30,2.394,0.558,{},0
+Iris,K-Fold,5,SVM,Ajustado,28,30,48.902,0.636,"{""modelo__C"": 1}",0
+Iris,K-Fold,5,MLP,Base,27,30,167.979,0.889,{},1
+Iris,K-Fold,5,MLP,Ajustado,27,30,1056.482,1.282,"{""modelo__hidden_layer_sizes"": [100], ""modelo__solver"": ""lbfgs""}",6
+Sintético,Hold Out,1,Distancia mínima,Base,68,72,1.645,1.907,{},0
+Sintético,Hold Out,1,1-NN,Base,63,72,1.205,2.613,{},0
+Sintético,Hold Out,1,K-NN,Base,66,72,1.158,3.963,{},0
+Sintético,Hold Out,1,K-NN,Ajustado,66,72,62.083,4.135,"{""modelo__k"": 5}",0
+Sintético,Hold Out,1,Naïve Bayes,Base,68,72,2.754,0.782,{},0
+Sintético,Hold Out,1,SVM,Base,66,72,3.949,1.185,{},0
+Sintético,Hold Out,1,SVM,Ajustado,66,72,66.061,1.093,"{""modelo__C"": 1}",0
+Sintético,Hold Out,1,MLP,Base,65,72,212.86,1.123,{},1
+Sintético,Hold Out,1,MLP,Ajustado,65,72,1619.214,1.109,"{""modelo__hidden_layer_sizes"": [100], ""modelo__solver"": ""adam""}",7
+Sintético,K-Fold,1,Distancia mínima,Base,44,48,1.501,1.38,{},0
+Sintético,K-Fold,1,1-NN,Base,43,48,1.496,1.962,{},0
+Sintético,K-Fold,1,K-NN,Base,43,48,1.445,2.941,{},0
+Sintético,K-Fold,1,K-NN,Ajustado,46,48,66.683,7.182,"{""modelo__k"": 3}",0
+Sintético,K-Fold,1,Naïve Bayes,Base,44,48,11.731,0.865,{},0
+Sintético,K-Fold,1,SVM,Base,46,48,16.59,1.165,{},0
+Sintético,K-Fold,1,SVM,Ajustado,46,48,194.342,1.146,"{""modelo__C"": 1}",0
+Sintético,K-Fold,1,MLP,Base,45,48,250.8,1.091,{},1
+Sintético,K-Fold,1,MLP,Ajustado,45,48,1716.192,0.987,"{""modelo__hidden_layer_sizes"": [100], ""modelo__solver"": ""adam""}",7
+Sintético,K-Fold,2,Distancia mínima,Base,42,48,1.336,1.292,{},0
+Sintético,K-Fold,2,1-NN,Base,44,48,1.093,1.854,{},0
+Sintético,K-Fold,2,K-NN,Base,42,48,1.076,2.733,{},0
+Sintético,K-Fold,2,K-NN,Ajustado,45,48,60.8,2.839,"{""modelo__k"": 9}",0
+Sintético,K-Fold,2,Naïve Bayes,Base,44,48,2.416,0.6,{},0
+Sintético,K-Fold,2,SVM,Base,44,48,3.246,0.747,{},0
+Sintético,K-Fold,2,SVM,Ajustado,44,48,58.067,1.04,"{""modelo__C"": 0.1}",0
+Sintético,K-Fold,2,MLP,Base,43,48,217.467,0.971,{},1
+Sintético,K-Fold,2,MLP,Ajustado,43,48,1777.29,1.044,"{""modelo__hidden_layer_sizes"": [100], ""modelo__solver"": ""adam""}",7
+Sintético,K-Fold,3,Distancia mínima,Base,42,48,1.446,1.325,{},0
+Sintético,K-Fold,3,1-NN,Base,37,48,1.144,1.899,{},0
+Sintético,K-Fold,3,K-NN,Base,41,48,1.115,2.892,{},0
+Sintético,K-Fold,3,K-NN,Ajustado,41,48,59.818,2.996,"{""modelo__k"": 9}",0
+Sintético,K-Fold,3,Naïve Bayes,Base,41,48,2.498,0.645,{},0
+Sintético,K-Fold,3,SVM,Base,44,48,3.301,0.802,{},0
+Sintético,K-Fold,3,SVM,Ajustado,44,48,75.986,1.134,"{""modelo__C"": 1}",0
+Sintético,K-Fold,3,MLP,Base,43,48,300.844,1.05,{},1
+Sintético,K-Fold,3,MLP,Ajustado,43,48,1586.733,1.034,"{""modelo__hidden_layer_sizes"": [100], ""modelo__solver"": ""adam""}",7
+Sintético,K-Fold,4,Distancia mínima,Base,39,48,1.423,1.321,{},0
+Sintético,K-Fold,4,1-NN,Base,39,48,1.144,1.968,{},0
+Sintético,K-Fold,4,K-NN,Base,42,48,1.182,2.78,{},0
+Sintético,K-Fold,4,K-NN,Ajustado,40,48,61.183,2.994,"{""modelo__k"": 9}",0
+Sintético,K-Fold,4,Naïve Bayes,Base,41,48,2.642,0.675,{},0
+Sintético,K-Fold,4,SVM,Base,42,48,3.419,0.827,{},0
+Sintético,K-Fold,4,SVM,Ajustado,42,48,58.61,0.89,"{""modelo__C"": 1}",0
+Sintético,K-Fold,4,MLP,Base,41,48,212.975,0.988,{},1
+Sintético,K-Fold,4,MLP,Ajustado,41,48,1987.027,1.27,"{""modelo__hidden_layer_sizes"": [100], ""modelo__solver"": ""adam""}",7
+Sintético,K-Fold,5,Distancia mínima,Base,38,48,1.8,1.34,{},0
+Sintético,K-Fold,5,1-NN,Base,36,48,1.143,1.942,{},0
+Sintético,K-Fold,5,K-NN,Base,35,48,1.366,2.949,{},0
+Sintético,K-Fold,5,K-NN,Ajustado,35,48,65.667,3.25,"{""modelo__k"": 3}",0
+Sintético,K-Fold,5,Naïve Bayes,Base,34,48,2.883,0.733,{},0
+Sintético,K-Fold,5,SVM,Base,39,48,3.581,0.8,{},0
+Sintético,K-Fold,5,SVM,Ajustado,35,48,66.552,1.182,"{""modelo__C"": 0.1}",0
+Sintético,K-Fold,5,MLP,Base,40,48,226.802,1.187,{},1
+Sintético,K-Fold,5,MLP,Ajustado,40,48,1778.933,1.375,"{""modelo__hidden_layer_sizes"": [100], ""modelo__solver"": ""adam""}",7
